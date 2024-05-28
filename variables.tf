@@ -26,7 +26,7 @@ variable "vpc_id" {
 }
 
 variable "app_port" {
-  default     = "8000"
+  default     = "80"
   description = "portexposed on the docker image"
 }
 
